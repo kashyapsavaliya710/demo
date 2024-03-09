@@ -1,0 +1,35 @@
+name: demo
+description: "A new Flutter project."
+# This line prevents accidental publishing of the package to pub.dev
+publish_to: 'none'
+
+# Defines the version and build number for your application
+version: 1.0.0+1
+
+# Specifies the minimum SDK version required for your Flutter project
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+# Dependencies specify other packages that your project needs to work
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.26.0
+  firebase: ^9.0.3
+  firebase_auth: ^4.17.7
+  permission_handler: ^11.3.0
+  google_maps_flutter: ^2.5.3
+  geocoding: ^2.2.0
+  geolocator: ^8.0.5
+
+
+# Development dependencies are used during development and testing
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Ensures that Material Icons font is included with your application
+  uses-material-design: true
